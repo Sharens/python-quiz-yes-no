@@ -1,0 +1,17 @@
+[project]
+name = "python-quiz-yes-no"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "xserant", email = "igor.kijowski.g@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+python-quiz-yes-no = "python_quiz_yes_no:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
